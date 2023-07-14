@@ -11,7 +11,7 @@ int main(void)
 int a, c;
 for (a = 0; a < 10; a++)
 putchar(48 + a);
-for (c = 'a'; c >= 'f'; c++)
+for (c = 'a'; c <= 'f'; c++)
 putchar(c);
 putchar('\n');
 return (0);
