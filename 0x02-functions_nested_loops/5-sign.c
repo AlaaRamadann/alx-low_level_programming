@@ -18,7 +18,7 @@ _putchar('+');
 else if (n == 0)
 {
 return (0);
-_putchar(48 + 'n');
+_putchar(0);
 }
 else if (n < 0)
 {
