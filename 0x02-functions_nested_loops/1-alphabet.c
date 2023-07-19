@@ -1,15 +1,14 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* main - Entry point
+* print_alphabet - utilizes _putchar function to print alphabet
 *
-* Description: A c program that prints with puts function
-*
-* Return: Always 0 (success)
 */
-int main(void)
+void print_alphabet(void)
 {
+int c;
 for (c = 'a'; c <= 'z'; c++)
 _putchar(c);
+_putchar('\n');
 return (0);
 }
