@@ -16,5 +16,6 @@ x = (n % 10) * -1;
 }
 else
 x = n % 10;
+_putchar(x + 48);
 return (x);
 }
