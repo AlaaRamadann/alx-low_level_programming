@@ -2,18 +2,13 @@
 /**
  * _abs - computes the absolute value of an integer
  *
- *@int: check for abs
+ *@x: check for abs
  *
- * Return: Always 0 (success)
+ * Return: return abs value of x
  */
-int _abs(int)
+int _abs(int x)
 {
-int x;
 if (x < 0)
-{
 x = x * -1;
-_putchar('x' + 48);
-}
-else
-_putchar('x' + 48);
+return (x);
 }
