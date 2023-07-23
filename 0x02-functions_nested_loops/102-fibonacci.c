@@ -8,15 +8,15 @@
 */
 int main(void)
 {
-long  x, y, s;
+int x, y, s;
 x = 1;
 y = 2;
 s = x + y;
 while (s != 20365011074)
 {
-printf("%d, ", x);
-printf("%d, ", y);
-printf("%d, ", s);
+printf("%ld, ", x);
+printf("%ld, ", y);
+printf("%ld, ", s);
 x = y;
 y = s;
 }
