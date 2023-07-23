@@ -24,11 +24,6 @@ else
 _putchar(((g * m) / 10) + 48);
 _putchar(((g * m) % 10) + 48);
 }
-if (m != 9)
-{
-_putchar(',');
-_putchar(' ');
-}
 }
 _putchar('\n');
 }
