@@ -18,7 +18,7 @@ if ((g * m)  <= 9 && g != 0)
 _putchar(' ');
 _putchar((g * m) + 48);
 }
-else
+else if (g != 0)
 {
 _putchar(((g * m) / 10) + 48);
 _putchar(((g * m) % 10) + 48);
