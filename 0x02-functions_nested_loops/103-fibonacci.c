@@ -16,7 +16,7 @@ while (s <= 4000000)
 {
 s = x + y;
 if (s % 2 == 0)
-sum += s;
+sum = sum + s;
 x = y;
 y = s;
 }
