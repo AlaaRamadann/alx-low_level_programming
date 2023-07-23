@@ -10,6 +10,10 @@
 int add(int x, int y)
 {
 int a = x + y;
-_putchar(a);
+if (a <= 9)
+_putchar(a + 48);
+else
+_putchar((a / 10) + 48);
+_putchar((a % 10) + 48);
 return (a);
 }
