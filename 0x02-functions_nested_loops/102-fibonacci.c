@@ -16,7 +16,9 @@ printf("%ld, ", x);
 printf("%ld, ", y);
 while (s <= 20365011074)
 {
-printf("%ld, ", s);
+printf("%ld", s);
+if (s != 20365011074)
+printf(", ");
 x = y;
 y = s;
 s = x + y;
