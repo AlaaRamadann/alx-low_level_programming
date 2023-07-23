@@ -19,6 +19,7 @@ printf("%ld, ", y);
 printf("%ld, ", s);
 x = y;
 y = s;
+x += y;
 }
 printf("\n");
 return (0);
