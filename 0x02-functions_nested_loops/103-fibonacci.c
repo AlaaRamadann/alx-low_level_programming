@@ -9,17 +9,16 @@
 int main(void)
 {
 long int x, y, s, sum;
-x = 1;
-y = 2;
-s = x + y;
+x = 0;
+y = 1;
 sum = 0;
 while (s <= 4000000)
 {
-if (y % 2 == 0)
-sum += y;
+s = x + y;
+if (s % 2 == 0)
+sum += s;
 x = y;
 y = s;
-s = x + y;
 }
 printf("%ld\n", sum);
 return (0);
