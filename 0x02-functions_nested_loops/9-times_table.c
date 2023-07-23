@@ -11,7 +11,9 @@ for (g = 0; g <= 9; g++)
 {
 for (m = 0; m <= 9; m++)
 {
-if ((g * m)  <= 9)
+if (g == 0)
+_putchar(48);
+if ((g * m)  <= 9 && g != 0)
 {
 _putchar(' ');
 _putchar((g * m) + 48);
