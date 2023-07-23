@@ -12,14 +12,13 @@ long int x, y, s;
 x = 1;
 y = 2;
 s = x + y;
-while (s != 20365011074)
-{
 printf("%ld, ", x);
 printf("%ld, ", y);
+for (; s != 20365011074; x += y)
+{
 printf("%ld, ", s);
 x = y;
 y = s;
-x += y;
 }
 printf("\n");
 return (0);
