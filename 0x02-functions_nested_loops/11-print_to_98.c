@@ -20,6 +20,5 @@ else if (n > 98)
 for (i = n; i > 98; i--)
 printf("%d, ", i);
 }
-else if (i == 98 || n == 98)
 printf("98");
 }
