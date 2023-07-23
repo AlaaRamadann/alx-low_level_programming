@@ -14,11 +14,12 @@ y = 2;
 s = x + y;
 printf("%ld, ", x);
 printf("%ld, ", y);
-for (; s <= 20365011074;)
+while (s <= 20365011074)
 {
-printf("%ld, ", x += y);
+printf("%ld, ", s);
 x = y;
 y = s;
+s = x + y;
 }
 printf("\n");
 return (0);
