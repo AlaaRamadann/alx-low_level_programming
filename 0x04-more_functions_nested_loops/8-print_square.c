@@ -17,7 +17,7 @@ for (row = 1; row <= n; row++)
 {
 for (square = 1; square <= n; square++)
 {
-_putchar(35);
+_putchar('#');
 }
 _putchar('\n');
 }
