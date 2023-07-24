@@ -19,7 +19,7 @@ for (s = 1; s <= size - row; s++)
 _putchar(' ');
 for (triangle = row; triangle > 0; triangle--)
 _putchar('#');
-}
 _putchar('\n');
+}
 }
 }
