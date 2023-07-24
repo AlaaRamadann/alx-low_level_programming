@@ -8,13 +8,18 @@
  */
 void print_triangle(int size)
 {
-int row, triangle;	
+int row, triangle, s;
 if (size <= 0)
 _putchar('\n');
 else
 {
 for (row = 1; row <= size; row++)
 {
-for (triangle = 1; triangle <= size; triangle++)
-{
-if 	
+for (s = 1; s <= size - row; s++)
+_putchar(' ');
+for (triangle = row; triangle > 0; triangle--)
+_putchar('#');
+}
+_putchar('\n');
+}
+}
