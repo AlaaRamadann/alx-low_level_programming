@@ -18,7 +18,7 @@ for (row = 1; row <= n; row++)
 for (spaces = 1; spaces <= row; spaces++)
 {
 if (spaces == row)
-_putchar('\');
+_putchar(92);
 else
 _putchar(' ');
 }
