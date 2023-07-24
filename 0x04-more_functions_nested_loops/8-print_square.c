@@ -13,9 +13,9 @@ if (size <= 0)
 _putchar('\n');
 else
 {
-for (row = 1; row <= n; row++)
+for (row = 1; row <= size; row++)
 {
-for (square = 1; square <= n; square++)
+for (square = 1; square <= size; square++)
 {
 _putchar('#');
 }
