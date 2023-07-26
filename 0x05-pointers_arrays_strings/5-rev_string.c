@@ -18,5 +18,4 @@ t = s[i];
 s[i] = s[l - i - 1];
 s[l - i - 1] = t;
 }
-_putchar('\n');
 }
