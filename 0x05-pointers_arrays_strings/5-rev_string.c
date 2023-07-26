@@ -10,10 +10,8 @@ int i, l, t;
 l = 0;
 while (s[l] != '\0')
 {
-_putchar(s[l]);
 l++;
 }
-_putchar('\n');
 for (i = 0; i < l / 2; i++)
 {
 t = s[i];
