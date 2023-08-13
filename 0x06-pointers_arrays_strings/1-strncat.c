@@ -26,7 +26,7 @@ for (j = 0; src[j] != '\0'; i++, j++)
 dest[i] = src[j];
 }
 }
-for (j = 0; j <= n - 1; i++, j++)
+for (j = 0; j <= n - 1 && src[j] != '\0'; i++, j++)
 {
 dest[i] = src[j];
 }
