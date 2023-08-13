@@ -11,11 +11,11 @@ int i, j, t;
 j = n - 1;
 if (n > 0)
 {
-for (i = 0; j >= 0; i++, j--)
+for (i = 0; j > i; i++, j--)
 {
-t = ar[i];
-ar[i] = ar[j];
-ar[j] = t;
+t = a[i];
+a[i] = a[j];
+a[j] = t;
 }
 }
 }
