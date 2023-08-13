@@ -11,7 +11,7 @@ int i, j;
 j = n - 1;
 if (n > 0)
 {
-for (i = 0; i < j; i++, j--)
+for (i = 0; j >= 0; i++, j--)
 {
 a[i] = a[j];
 }
