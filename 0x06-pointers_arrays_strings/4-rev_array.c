@@ -11,16 +11,8 @@ int i, j;
 j = n - 1;
 if (n > 0)
 {
-if (n % 2 != 0)
+for (i = 0; i < j; i++, j--)
 {
-for (i = 0; i != j; i++, j--)
-{
-a[i] = a[j];
-}
-}
-else
-{
-for (i = 0; i <= (n / 2) - 1; i++, j--)
 a[i] = a[j];
 }
 }
