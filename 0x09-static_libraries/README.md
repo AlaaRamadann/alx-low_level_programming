@@ -1,1 +1,1 @@
-readme
+script to create a static library
